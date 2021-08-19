@@ -1,0 +1,37 @@
+.bounding-box{
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+.bounding-box__concept {
+    background: #149df2;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 75%;
+    line-height: 0.75rem;
+    display: flex;
+    align-items: baseline;
+    font-weight: 1000;
+    padding: 1px 3px;
+    border-radius: 2px 2px 0 0;
+}
+.concept__name {
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.concept__prediction-val {
+    color: #fff;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+.bounding-box-concepts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+}
